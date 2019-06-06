@@ -1,27 +1,14 @@
-# Untitled1
+# Théo Berro - Projet Conference 2019
+##PoC et rapport sur les PWA  
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.8.
+## Lancer l'application : 
 
-## Development server
+- Cloner le projet
+- Executer un `npm install` à l'intérieur du dossier
+- Compiler le projet à l'aide de la commande `ng build --prod`
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+- Afin de lancer l'application en "mode" PWA, vous aurez besoin de deux consoles : 
+  - Une pour la commande `http-server -p 4200 -c-1 dist/PWA`
+  - Une autre pour la commande `ngrok http 4200` ( à faire après avoir lancé la commande au dessus)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).

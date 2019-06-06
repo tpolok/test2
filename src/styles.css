@@ -1,1 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+  max-width: 90%;
+  padding-left: 5%;
+  background-color: #bcd0df;
+}
+
+
+img {
+  max-width: 75%;
+}
